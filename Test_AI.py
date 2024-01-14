@@ -9,6 +9,7 @@ face_cascade_path = haarcascades_path + 'haarcascade_frontalface_default.xml'
 # Initialize the cascade for face detection
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 
+
 # Define the video capture object
 vid = cv2.VideoCapture(0)
 
